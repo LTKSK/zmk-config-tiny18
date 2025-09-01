@@ -9,10 +9,20 @@
     combos {
         compatible = "zmk,combos";
 
-        p {
-            bindings = <&kp P>;
+        q {
+            bindings = <&kp Q>;
             key-positions = <0 1>;
             layers = <0>;
+        };
+
+        l {
+            bindings = <&kp L>;
+            key-positions = <12 11>;
+        };
+
+        r {
+            bindings = <&kp R>;
+            key-positions = <4 5>;
         };
     };
 
