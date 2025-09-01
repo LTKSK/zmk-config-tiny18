@@ -24,6 +24,11 @@
             bindings = <&kp R>;
             key-positions = <4 5>;
         };
+
+        x {
+            bindings = <&kp X>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
@@ -31,7 +36,7 @@
 
         default_layer {
             bindings = <
-&kp W  &kp P  &kp B  &kp T  &kp Y  &kp G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &kp Z  &kp E  &kp M  &kp N
+&kp W  &kp E  &kp B  &kp T  &kp Y  &kp G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &kp S  &kp D  &kp M  &kp N
             >;
         };
 
