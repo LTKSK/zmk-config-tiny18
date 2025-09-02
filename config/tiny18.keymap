@@ -80,6 +80,16 @@
             bindings = <&kp LANG2>;
             key-positions = <12 7>;
         };
+
+        lp {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <9 15>;
+        };
+
+        rp {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <10 16>;
+        };
     };
 
     keymap {
