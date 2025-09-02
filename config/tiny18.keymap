@@ -11,7 +11,7 @@
 
         q {
             bindings = <&kp Q>;
-            key-positions = <0 1>;
+            key-positions = <0 1 2>;
             layers = <0>;
         };
 
@@ -29,6 +29,21 @@
             bindings = <&kp X>;
             key-positions = <1 2>;
         };
+
+        c {
+            bindings = <&kp C>;
+            key-positions = <7 8 9>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <8 9>;
+        };
+
+        v {
+            bindings = <&kp V>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
@@ -42,7 +57,7 @@
 
         layer_1 {
             bindings = <
-&kp SINGLE_QUOTE  &kp BACKSLASH  &kp EQUAL  &kp SLASH  &kp GRAVE  &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp SPACE  &kp RIGHT_GUI  &trans  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp MINUS  &kp RIGHT_COMMAND  &kp BACKSPACE
+&kp SINGLE_QUOTE  &kp BACKSLASH  &kp EQUAL  &kp SLASH  &kp GRAVE  &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp PERIOD  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &trans  &kp SEMICOLON  &kp MINUS  &kp RIGHT_COMMAND  &kp BACKSPACE
             >;
         };
 
