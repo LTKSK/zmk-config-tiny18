@@ -140,6 +140,26 @@
             bindings = <&kp NON_US_BACKSLASH>;
             key-positions = <0 15>;
         };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <3 2>;
+        };
+
+        dot {
+            bindings = <&kp DOT>;
+            key-positions = <1 4>;
+        };
+
+        wave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 5>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <9 10>;
+        };
     };
 
     keymap {
@@ -159,7 +179,7 @@
 
         layer_2 {
             bindings = <
-&msc SCRL_RIGHT  &mmv MOVE_UP  &msc SCRL_UP  &kp F12  &kp F5  &kp F7  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &msc SCRL_RIGHT  &trans  &kp ESC  &kp DEL
+&msc SCRL_RIGHT  &mmv MOVE_UP  &msc SCRL_UP  &mkp MB4  &mkp MB5  &kp F7  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1  &mkp MB3  &mkp MB2  &kp F12  &msc SCRL_RIGHT  &trans  &kp ESC  &kp DEL
             >;
         };
 
