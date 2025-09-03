@@ -19,6 +19,7 @@
         l {
             bindings = <&kp L>;
             key-positions = <12 11>;
+            layers = <0>;
         };
 
         r {
@@ -159,6 +160,12 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <9 10>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <12 11>;
+            layers = <1>;
         };
     };
 
