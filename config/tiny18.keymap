@@ -90,6 +90,26 @@
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <10 16>;
         };
+
+        lb {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <8 15>;
+        };
+
+        rb {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <11 16>;
+        };
+
+        lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <7 15>;
+        };
+
+        lesst {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <12 16>;
+        };
     };
 
     keymap {
@@ -97,7 +117,7 @@
 
         default_layer {
             bindings = <
-&kp W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &mt LEFT_GUI BACKSPACE  &lt 2 U  &kp S  &lt 1 TAB
+&kp W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &mt LEFT_GUI BACKSPACE  &lt 2 U  &lt 1 S  &kp TAB
             >;
         };
 
