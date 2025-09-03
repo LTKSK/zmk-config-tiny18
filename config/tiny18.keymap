@@ -110,6 +110,36 @@
             bindings = <&kp GREATER_THAN>;
             key-positions = <12 16>;
         };
+
+        quote {
+            bindings = <&kp SQT>;
+            key-positions = <5 16>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <3 16>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <4 16>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <2 15>;
+        };
+
+        koron {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <1 15>;
+        };
+
+        backslash {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <0 15>;
+        };
     };
 
     keymap {
