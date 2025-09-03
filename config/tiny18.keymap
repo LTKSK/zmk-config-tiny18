@@ -167,6 +167,11 @@
             key-positions = <12 11>;
             layers = <1>;
         };
+
+        bs {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 13>;
+        };
     };
 
     keymap {
@@ -174,7 +179,7 @@
 
         default_layer {
             bindings = <
-&kp W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &kp LEFT_GUI  &lt 2 U  &lt 1 S  &mt RCTRL TAB
+&mt RCTRL W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &kp LEFT_GUI  &lt 2 U  &lt 1 S  &mt RCTRL TAB
             >;
         };
 
@@ -186,7 +191,7 @@
 
         layer_2 {
             bindings = <
-&msc SCRL_RIGHT  &mmv MOVE_UP  &msc SCRL_UP  &mkp MB4  &mkp MB5  &kp F7  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1  &mkp MB3  &mkp MB2  &kp F12  &msc SCRL_RIGHT  &trans  &kp ESC  &kp DEL
+&msc SCRL_DOWN  &mmv MOVE_UP  &msc SCRL_UP  &mkp MB4  &mkp MB5  &kp F7  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB1  &mkp MB3  &mkp MB2  &kp F12  &msc SCRL_RIGHT  &trans  &kp ESC  &kp DEL
             >;
         };
 
