@@ -49,22 +49,22 @@
 
         n {
             bindings = <&kp N>;
-            key-positions = <3 4>;
+            key-positions = <10 11>;
         };
 
         m {
             bindings = <&kp M>;
-            key-positions = <3 5>;
+            key-positions = <10 12>;
         };
 
         f {
             bindings = <&kp F>;
-            key-positions = <10 11>;
+            key-positions = <3 4>;
         };
 
         d {
             bindings = <&kp D>;
-            key-positions = <12 10>;
+            key-positions = <5 3>;
         };
 
         p {
