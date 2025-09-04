@@ -179,13 +179,13 @@
 
         default_layer {
             bindings = <
-&mt RCTRL W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &kp LEFT_GUI  &lt 2 U  &lt 1 S  &mt RCTRL TAB
+&mt RCTRL W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LCTRL ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt RIGHT_SHIFT SPACE  &kp LEFT_GUI  &lt 2 U  &lt 1 S  &mt RCTRL BACKSPACE
             >;
         };
 
         layer_1 {
             bindings = <
-&kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp N7  &kp N8  &kp N9  &kp F10  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &trans  &lt 5 F7  &kp N0  &kp RIGHT_COMMAND  &kp BACKSPACE
+&kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp N7  &kp N8  &kp N9  &kp F10  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &trans  &lt 5 F7  &kp N0  &kp RIGHT_COMMAND  &kp TAB
             >;
         };
 
