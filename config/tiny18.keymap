@@ -179,7 +179,7 @@
 
         default_layer {
             bindings = <
-&mt RCTRL W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LEFT_SHIFT ENTER  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt LCTRL SPACE  &kp LEFT_GUI  &lt 2 U  &lt 1 S  &kp BACKSPACE
+&mt RCTRL W  &kp E  &kp B  &kp T  &kp Y  &mt LEFT_ALT G  &mt LEFT_SHIFT SPACE  &kp A  &kp I  &kp O  &kp H  &kp J  &kp K  &mt LCTRL ENTER  &kp LEFT_GUI  &lt 2 U  &lt 1 S  &kp BACKSPACE
             >;
         };
 
